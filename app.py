@@ -4,8 +4,6 @@ from openai import OpenAI
 from dotenv import load_dotenv
 load_dotenv()
 
-
-# ✅ Create OpenAI client using environment variable
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 # Streamlit UI
